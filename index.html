@@ -8,11 +8,21 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f111a;
+      background-image: url('background_banner.jpg');
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      background-size: cover;
       color: #e5e5e5;
       line-height: 1.6;
-      padding: 2rem;
     }
+
+    .overlay {
+      background-color: rgba(15, 17, 26, 0.85); /* Slightly transparent dark overlay */
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
     header {
       text-align: center;
       padding-bottom: 2rem;
@@ -69,42 +79,43 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Joe Rogers</h1>
-    <h2>AI Infrastructure & SRE Leader</h2>
-    <div>
-      <a class="btn" href="/JoeRogers-SRE-AI-Manager-2025.pdf">Download Resume</a>
-    </div>
-  </header>
+  <div class="overlay">
+    <header>
+      <h1>Joe Rogers</h1>
+      <h2>AI Infrastructure & SRE Leader</h2>
+      <div>
+        <a class="btn" href="/JoeRogers-SRE-AI-Manager-2025.pdf">Resume</a>
+      </div>
+    </header>
 
-  <section id="about">
-    <h3>About</h3>
-    <p>
-      I'm an SRE Manager with a deep background in AWS automation, container orchestration,
-      and scalable infrastructure. I build tools and systems that let AI teams deploy faster,
-      safer, and smarter.
-    </p>
-  </section>
+    <section id="about">
+      <h3>About</h3>
+      <p>
+        I'm an SRE Manager with a deep background in AWS automation, container orchestration,
+        and scalable infrastructure. I build tools and systems that let AI teams deploy faster,
+        safer, and smarter.
+      </p>
+    </section>
 
-<section id="projects">
-    <h3>Recent Projects</h3>
-    <ul>
-      <li><a href="ai-slack-bot/index.html">AI Slack Bot</a> using OpenAI or Gemini</li>
-    </ul>
-  </section>
+    <section id="projects">
+      <h3>Recent Projects</h3>
+      <ul>
+        <li><a href="ai-slack-bot/index.html">AI Slack Bot</a> using OpenAI or Gemini</li>
+      </ul>
+    </section>
 
-  <section id="career">
-    <h3>Recent Career Highlights</h3>
-    <ul>
-      <li>Cut costs by over 50% by migrating all applications from EC2 to ECS</li>
-      <li>Reduced deploy time from 2 weeks to 2 days, with CI/CD overhaul from CodePipeline to GitLab CI and Terraform</li>
-    </ul>
-  </section>
+    <section id="career">
+      <h3>Recent Career Highlights</h3>
+      <ul>
+        <li>Cut costs by over 50% by migrating all applications from EC2 to ECS</li>
+        <li>Reduced deploy time from 2 weeks to 2 days, with CI/CD overhaul from CodePipeline to GitLab CI and Terraform</li>
+      </ul>
+    </section>
 
     <section id="skills">
       <h3>Skills</h3>
       <ul>
-        <li><strong>Cloud:</strong> AWS (ECS (Elastic Container Service), EKS (Elastic Kubernetes Service), Fargate, EC2, ASG (Auto Scaling Groups), ACM, IAM, VPC, Security Groups, Cloudfront, Route 53, Bedrock), Cloudflare</li>
+        <li><strong>Cloud:</strong> AWS (ECS, EKS, Fargate, EC2, ASG, ACM, IAM, VPC, Security Groups, Cloudfront, Route 53, Bedrock), Cloudflare</li>
         <li><strong>IaC &amp; Config:</strong> Terraform, Ansible, Puppet</li>
         <li><strong>Containers &amp; Orchestration:</strong> Docker, ECS, EKS, Kubernetes</li>
         <li><strong>CI/CD:</strong> GitLab CI, Gitlab Runners, CodePipeline/Build/Deploy, Jenkins</li>
@@ -113,12 +124,14 @@
         <li><strong>AI/LLM:</strong> Bedrock, OpenAI, Claude, Gemini, Perplexity</li>
         <li><strong>Leadership:</strong> Hiring, mentoring, incident management, SLOs/Error Budgets, DORA metrics</li>
       </ul>
+    </section>
 
-  <section id="contact">
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:joe@joe-r.net">joe@joe-r.net</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/go2joerogers">linkedin.com/in/go2joerogers</a></p>
-    <p>GitHub: <a href="https://github.com/joerawr">github.com/joerawr</a></p>
-  </section>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:joe@joe-r.net">joe@joe-r.net</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/go2joerogers">linkedin.com/in/go2joerogers</a></p>
+      <p>GitHub: <a href="https://github.com/joerawr">github.com/joerawr</a></p>
+    </section>
+  </div>
 </body>
 </html>
