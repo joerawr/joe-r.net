@@ -1,24 +1,24 @@
 # **Joe Rogers**
 
-`Site Reliability Engineering Manager (SRE Manager)`
+`Site Reliability Engineering Lead (SRE Leader)`
 
 ## `310.903.8312 | joe@joe-r.net | linkedin:go2joerogers | Torrance, CA`
 
 # **Summary** ![A long, thin rectangle to divide sections of the document][image1]
 
-Site Reliability Engineering Manager (SRE Manager) with 20+ years across on‑prem to AWS, leading teams to modernize platforms with Infrastructure as Code (IaC) (Terraform/Ansible), containers (ECS/EKS/Fargate, Docker), GitLab CI, and observability (Datadog/Splunk). Currently driving AI/LLM adoption (Bedrock, internal LLM tools, code assistants) to accelerate delivery. Cut release lead time from 1 day to 1 hour, new app spin‑up from 2 weeks to 2 days, and migrated 50+ services from EC2 to ECS. Passionate about coaching SREs, DORA metrics, and cost/MTTR reduction.
+Site Reliability Engineering Leader (SRE Lead) with 20+ years across on-prem to AWS, guiding teams to modernize platforms with Infrastructure as Code (IaC) (Terraform/Ansible), containers (ECS/EKS/Fargate, Docker), GitLab CI, and observability (Datadog/Splunk). Currently driving AI/LLM adoption (Bedrock, internal LLM tools, code assistants) to accelerate delivery. Cut release lead time from 1 day to 1 hour, new app spin‑up from 2 weeks to 2 days, and migrated 50+ services from EC2 to ECS. Passionate about coaching SREs, DORA metrics, and cost/MTTR reduction.
 
 # **Skills** ![A long, thin rectangle to divide sections of the document][image1]
 
-# Cloud: AWS (ECS (Elastic Container Service), EKS (Elastic Kubernetes Service), Fargate, EC2, ASG (Auto Scaling Groups), ACM, Multi-region / Multi-account IAM, Network VPC, Security Groups, Cloudfront, Route 53, Bedrock), Cloudflare IaC & Config: Terraform, Ansible, Puppet Security: NIST, Orca, Datadog, Pen Tests, Compliance Containers & Orchestration: Docker, ECS, EKS, Kubernetes CI/CD: GitLab CI, Gitlab Runners, CodePipeline/Build/Deploy, Jenkins Observability: Datadog, Splunk, Prometheus, Grafana Languages & Tools: Python, Bash, VSCode, Cline, Copilot AI/LLM: Bedrock, OpenAI, Claude, Gemini, Perplexity Leadership: Hiring, mentoring, incident management, SLOs/Error Budgets, DORA metrics, Jira, Agile, Scrum
+# Cloud: AWS (ECS (Elastic Container Service), EKS (Elastic Kubernetes Service), Fargate, EC2, ASG (Auto Scaling Groups), ACM, Multi-region / Multi-account IAM, Network VPC, Security Groups, Cloudfront, Route 53, Bedrock), Cloudflare IaC & Config: Terraform, Ansible, Puppet Security: NIST, Orca, Datadog, Pen Tests, Compliance Containers & Orchestration: Docker, ECS, EKS, Kubernetes CI/CD: GitLab CI, Gitlab Runners, CodePipeline/Build/Deploy, Jenkins Observability: Datadog, Splunk, Prometheus, Grafana Languages & Tools: Python, Bash, VSCode, Cline, Copilot AI/LLM: Bedrock, OpenAI, Claude, Gemini, Perplexity Leadership: Team guidance, mentoring, incident leadership, SLOs/Error Budgets, DORA metrics, Jira, Agile, Scrum
 
 # **Experience** ![A long, thin rectangle to divide sections of the document][image1]
 
-# **Core Digital Media** \- *Playa Vista, CA* **Site Reliability Engineer Manager** \- *July 2021 \- Present*
+# **Core Digital Media** \- *Playa Vista, CA* **Site Reliability Engineering Manager** (IC-heavy leadership role) \- *July 2021 \- Present*
 
-* Drove a major modernization initiative to containerize 50+ services from EC2 to ECS/Fargate, replatform CI/CD from AWS CodePipeline to GitLab CI, and migrate from self-hosted GitLab to GitLab Cloud Ultimate. Enabled shift-left testing, reusable pipelines, and AI-assisted reviews. Reduced new-service bootstrap from 14 to 2 days (‑86%) and release lead time from 24h to 1h (‑95%), while cutting infra and tooling costs 50% and standardizing deployments org-wide  
+* Drove a major modernization initiative to containerize 50+ services from EC2 to ECS/Fargate, replatform CI/CD from AWS CodePipeline to GitLab CI, and migrate from self-hosted GitLab to GitLab Cloud Ultimate. Enabled shift-left testing, reusable pipelines, and AI-assisted reviews Reduced new-service bootstrap from 14 to 2 days (‑86%) and release lead time from 24h to 1h (‑95%), while cutting infra and tooling costs 50% and standardizing deployments org-wide  
 * Championed strategic cost optimization by actively managing AWS budgets, accurately forecasting usage, and recommending Savings Plans and Reserved Instances, consistently keeping infrastructure costs under budget and unlocking funds for innovation  
-* Led a team of seven engineers to implement Infrastructure as Code (IaC) using Terraform, GitLab CI, and GitLab Runners, instilling a GitOps mindset that drove a 70% improvement in deployment efficiency and ensured consistent environment configurations across multiple projects.  
+* Led a team of three direct reports and up to seven engineers in extended project teams to implement Infrastructure as Code (IaC) using Terraform, GitLab CI, and GitLab Runners, instilling a GitOps mindset that drove a 70% improvement in deployment efficiency  
 * Led the re-architecture of Disaster Recovery tooling to align with modern CI/CD workflows, ensuring automated failover readiness and resilience as part of our cloud-native transformation  
 * Spearheaded migration of Infrastructure as Code tooling from end-of-life CentOS 7 to long-term support AlmaLinux, ensuring platform stability, security compliance, and future-proofing critical automation workflows  
 * Initiated deployment of automated patching using TuxCare, enabling live kernel patching with zero reboots to enhance security posture—project was in progress at the time of role transition  
