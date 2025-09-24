@@ -33,7 +33,7 @@ Site Reliability Engineer with experience designing, building, and operating Kub
 
 # **Experience**
 
-## **Core Digital Media – Playa Vista, CA**
+## **Core Digital Media / Rocket Mortgage – Playa Vista, CA**
 
 **Site Reliability Engineering Lead (IC-heavy role)** – *July 2021 – Present*
 
@@ -110,4 +110,3 @@ Site Reliability Engineer with experience designing, building, and operating Kub
 **Education**
 
 | UCLA, Los Angeles | Electrical Engineering |
-
